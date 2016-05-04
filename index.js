@@ -64,8 +64,12 @@ class Async {
 }
 
 
-const async = new Async();
-const run = async.run.bind(async);
-export default run;
-export const cancel = async.cancel.bind(async);
-module.exports = run;
+var async = new Async();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var run = async.run.bind(async);
+var cancel = exports.cancel = async.cancel.bind(async);
+exports.default = run;

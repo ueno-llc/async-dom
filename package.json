@@ -1,6 +1,6 @@
 {
   "name": "async-dom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Asynchronously call a method after the DOM has changed.",
   "main": "index.js",
   "scripts": {
