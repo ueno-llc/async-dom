@@ -1,0 +1,25 @@
+{
+  "name": "async-dom",
+  "version": "1.0.0",
+  "description": "Asynchronously call a method after the DOM has changed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ueno-llc/async-dom.git"
+  },
+  "keywords": [
+    "async",
+    "dom",
+    "MutationObserver",
+    "createTextNode"
+  ],
+  "author": "UENO.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ueno-llc/async-dom/issues"
+  },
+  "homepage": "https://github.com/ueno-llc/async-dom#readme"
+}
